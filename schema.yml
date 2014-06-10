@@ -50,7 +50,7 @@ definitions:
       title: Create
     - description: Update the user
       href: "/users/{(#/definitions/users/definitions/id)}"
-      method: PUT
+      method: PATCH
       rel: update
       title: Update
     - description: Delete the user

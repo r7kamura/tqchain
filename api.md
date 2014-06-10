@@ -2,7 +2,7 @@
 * [User](#user)
  * [GET /users](#get-users)
  * [POST /users](#post-users)
- * [PUT /users/:id](#put-usersid)
+ * [PATCH /users/:id](#patch-usersid)
  * [DELETE /users/:id](#delete-usersid)
 
 ## User
@@ -78,11 +78,11 @@ Content-Type: application/json
 }
 ```
 
-### PUT /users/:id
+### PATCH /users/:id
 Update the user
 
 ```
-PUT /users/:id HTTP/1.1
+PATCH /users/:id HTTP/1.1
 Content-Type: application/json
 Host: tqchain.herokuapp.com
 
