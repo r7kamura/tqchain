@@ -16,7 +16,7 @@ GEM
     connection_pool (2.0.0)
     erubis (2.7.0)
     i18n (0.6.9)
-    jdoc (0.0.5)
+    jdoc (0.0.6)
       erubis
       json_schema
     json_schema (0.1.4)
