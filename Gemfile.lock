@@ -35,10 +35,9 @@ GEM
     optionable (0.2.0)
     origin (2.1.1)
     rack (1.5.2)
-    rack-json_schema (1.0.2)
+    rack-json_schema (1.0.3)
       jdoc (>= 0.0.3)
       json_schema
-      multi_json
       rack
     rack-mongoid_adapter (0.0.1)
       bson_ext (>= 1.5.1)
