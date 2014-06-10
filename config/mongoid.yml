@@ -1,0 +1,8 @@
+development:
+  sessions:
+    default:
+      uri: mongodb://localhost:27017/tqchain_development
+production:
+  sessions:
+    default:
+      uri: <%= ENV["MONGOLAB_URI"]%>
