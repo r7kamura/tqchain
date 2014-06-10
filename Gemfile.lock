@@ -55,5 +55,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jdoc
   rack-json_schema
   rack-mongoid_adapter
