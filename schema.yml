@@ -31,6 +31,7 @@ definitions:
         type:
         - string
       updated_at:
+        description: When this resource is updated
         example: "2014-06-10T21:05:20+09:00"
         readOnly: true
         format: date-time
