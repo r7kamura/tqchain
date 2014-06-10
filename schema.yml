@@ -43,6 +43,21 @@ definitions:
       method: GET
       rel: instances
       title: List
+    - description: Create a new user
+      href: "/users"
+      method: POST
+      rel: create
+      title: Create
+    - description: Update the user
+      href: "/users/{(#/definitions/users/definitions/id)}"
+      method: PUT
+      rel: update
+      title: Update
+    - description: Delete the user
+      href: "/users/{(#/definitions/users/definitions/id)}"
+      method: DELETE
+      rel: delete
+      title: Delete
     properties:
       id:
         "$ref": "#/definitions/user/definitions/id"
