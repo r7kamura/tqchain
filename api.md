@@ -34,7 +34,7 @@ List all users
 ```
 GET /users HTTP/1.1
 Content-Type: application/json
-Host: api.example.com
+Host: tqchain.herokuapp.com
 ```
 
 ```
@@ -56,7 +56,7 @@ Create a new user
 ```
 POST /users HTTP/1.1
 Content-Type: application/json
-Host: api.example.com
+Host: tqchain.herokuapp.com
 
 {
   "name": "alice",
@@ -84,7 +84,7 @@ Update the user
 ```
 PUT /users/:id HTTP/1.1
 Content-Type: application/json
-Host: api.example.com
+Host: tqchain.herokuapp.com
 
 {
   "name": "alice",
@@ -112,7 +112,7 @@ Delete the user
 ```
 DELETE /users/:id HTTP/1.1
 Content-Type: application/json
-Host: api.example.com
+Host: tqchain.herokuapp.com
 ```
 
 ```
