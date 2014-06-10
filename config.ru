@@ -1,5 +1,5 @@
 require "rack/json_schema"
-require "rack/mongoid_adapter"
+require "rack/mongoid"
 require "yaml"
 
 schema = YAML.load_file("schema.yml")
