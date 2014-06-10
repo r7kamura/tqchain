@@ -39,7 +39,7 @@ GEM
       jdoc (>= 0.0.3)
       json_schema
       rack
-    rack-mongoid (0.1.0)
+    rack-mongoid (0.1.1)
       bson_ext (>= 1.5.1)
       mem (>= 0.0.5)
       mongoid (>= 4.0.0.alpha2)
